@@ -1,6 +1,7 @@
 * {
     padding: 0;
-    margin: 0
+    margin: 0;
+    font-family: Helvetica;
 }
 
 .container {
@@ -9,6 +10,10 @@
     height: 500px;
     background: rgb(14,147,168);
     background: linear-gradient(-180deg, rgba(14,147,168,0.9476832969515931) 1%, rgba(8,56,66,1) 60%);
+}
+
+.center {
+    padding: 150px 0;
 }
 
 p {
@@ -22,21 +27,26 @@ p {
 .container2 {
     margin-top: 10px;
     margin-left: 15%;
+    margin-right: 15%;
     color: #0e93a8;
-    font-size: 48px;
+    font-size: 36px;
+
 }
 
 .section1 {
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .words {
     color: black;
     text-align: justify;
+    font-size: 24px; 
+
 
 }
 
 .section2 {
-    margin-right: 15%;
     text-align: right;
+    font-weight: bold;
 }
