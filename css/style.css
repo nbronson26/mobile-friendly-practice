@@ -50,3 +50,23 @@ p {
     text-align: right;
     font-weight: bold;
 }
+
+@media (max-width: 1024px) {
+    p {
+      background-color: blueviolet;
+    }
+  }
+
+
+@media (max-width: 768px) {
+    p {
+      background-color: crimson;
+    }
+  }
+
+  @media (max-width: 480px) {
+    p {
+      background-color: blue;
+    }
+  }
+
